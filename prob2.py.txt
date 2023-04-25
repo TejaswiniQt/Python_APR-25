@@ -1,0 +1,7 @@
+'''
+write a program that reads a N and print natural numbers from 1 
+
+'''
+N = int(input("Enter the number: "))
+for i in range(1,N+1):
+    print(i)

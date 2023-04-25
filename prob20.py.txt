@@ -1,0 +1,21 @@
+'''
+20.Inverted right angled triangle 
+write a program that reads a number N and prints an interved right angled triangle of N rows using start 
+input 
+5 
+output 
+* * * * *
+* * * *
+* * *
+* *
+* 
+
+'''
+
+N = int(input("Enter the number: "))
+count = N
+for i in range(1,N+1):
+    print("* "*count)
+    count-=1
+
+

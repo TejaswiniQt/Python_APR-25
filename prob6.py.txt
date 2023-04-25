@@ -1,0 +1,11 @@
+'''
+write a program that reads a number N and print 10 numbers after N 
+
+'''
+
+N = int(input("Enter the number: "))
+num = N 
+for i in range(1,11):
+    num+=1
+    print(num)
+
